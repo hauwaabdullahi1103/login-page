@@ -5,60 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>form</title>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        justify-content: center;
+            * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+                    }
+            form {
+                      justify-content: center;
+              background-color: rgb(180, 237, 237);
+            }
+            body{
+          display: flex;
+          justify-content: right;
+          align-items: center;
+          min-height: 100vh;
+          background: black no-repeat;
+          background-size: cover;
+          background-position: center;
+
       }
-      form {
-        max-height: 100vh;
-        justify-content: center;
-        background-color: rgb(180, 237, 237);
+      .label1{
+        font-size: larger;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+        cursor: cell;
+
       }
+      .label1 input
     </style>
   </head>
   <body>
     <form>
-      Please enter your membership details:
+      <h1>Please Enter your Membership Details:</h1>
       <br />
-      <label>first name:</label>
-      <input type="name" placeholder="first name" />
+      <div class="label1">
+        <label>first name:</label>
+        <input class="input" type="name" placeholder="first name" />
+        <br />
+        <br />
+        <label>Last name:</label>
+        <input class="input" type="name" placeholder="last name" />
+        <br />
+        <br />
+        <label>Email address:</label>
+        <input class="input" type="email" placeholder="email address" />
+      </div>
       <br />
       <br />
-      <label>Last name:</label>
-      <input type="name" placeholder="last name" />
-      <br />
-      <br />
-      <label>Email address:</label>
-      <input type="email" placeholder="email address" />
-      <br />
-      <br />
-      <label>Payment method:</label>
-      <label>Cash</label>
-      <input type="radio" />
-      <label>Cheque</label>
-      <input type="radio" />
-      <label>Credit</label>
-      <input type="radio" />
-      <br />
-      <label>Communication preference</label>
-      <label>Email</label>
-      <input type="checkbox" />
-      <label>Newsletter</label>
-      <input type="checkbox" />
-      <label>Phone</label>
-      <input type="checkbox" />
-      <br />
-      <label>Membership Type</label>
-      <select name="" id="">
-        <option value="">full</option>
-        <option value="">part-time</option>
-      </select>
-      <br /><br />
-      <label>Comments</label>
-      <textarea name="" id=""></textarea>
-      <br />
+      <div class="label2">
+        <label>Payment method:</label>
+        <label>Cash</label>
+        <input type="radio" />
+        <label>Cheque</label>
+        <input type="radio" />
+        <label>Credit</label>
+        <input type="radio" />
+        <br />
+        <label>Communication preference</label>
+        <label>Email</label>
+        <input type="checkbox" />
+        <label>Newsletter</label>
+        <input type="checkbox" />
+        <label>Phone</label>
+        <input type="checkbox" />
+        <br />
+        <label>Membership Type</label>
+        <select name="" id="">
+          <option value="">full</option>
+          <option value="">part-time</option>
+        </select>
+        <br /><br />
+      </div>
+      <div>
+        <label>Comments</label>
+        <textarea name="" id=""></textarea>
+        <br />
+      </div>
       <button>Display</button>
     </form>
   </body>
