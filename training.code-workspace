@@ -1,0 +1,22 @@
+{
+  "folders": [
+	{
+		"path": "../training"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../CodeAcademy"
+	},
+	{
+		"path": "../w3school"
+	},
+	{
+		"path": "../Assignment"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Assignment"
+  }
+}
