@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        color: darkred;
+        background-color: rgba(210, 105, 30, 0.664);
+      }
+      .hero {
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 80px auto;
+        padding: 0 20px;
+      }
+      .for {
+        padding: 20px 50px;
+        background-color: darkred;
+        border: none;
+        color: rgba(243, 225, 213, 0.664);
+        font-size: larger;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <form>
+        <h1>TUITION REIMBURSEMENT</h1>
+        <ol>
+          <li>
+            <label>Name <br /></label>
+            <input type="text" />
+          </li>
+          <br />
+          <li>
+            <label for="email">Email <br /></label>
+            <input type="email" />
+          </li>
+          <br />
+          <li>
+            <label for="password">password <br /></label>
+            <input type="password" />
+          </li>
+          <br /><br />
+          <li>
+            <label>comments</label>
+            <br />
+            <textarea name="" id=""></textarea>
+          </li>
+          <br />
+          <li>
+            <label>id card</label>
+            <input type="text" />
+            <button>choose</button>
+          </li>
+          <br />
+          <li>
+            <label>University</label>
+            <select name="" id="">
+              <option>Ahmadu Bello university</option>
+              <option>University of Benin</option>
+              <option>Federal University Dutse</option>
+              <option>Maryam Abacha American University of Nigeria</option>
+              <option>Lagos State University</option>
+              <option>Bayero University kano</option>
+            </select>
+          </li>
+        </ol>
+        <ul>
+          <br /><br />
+          <button cltype="submit" class="for">submit</button>
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>
