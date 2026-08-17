@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family:
+          "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+          Arial, sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url(WhatsApp\ Image\ 2026-01-20\ at\ 8.29.42\ PM.jpeg)
+          no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .form {
+        color: rgb(8, 3, 3);
+        font-size: larger;
+        font-weight: bolder;
+      }
+
+      .sec-1 {
+        margin-bottom: 25px;
+      }
+      .sec-2 {
+      }
+      button {
+        margin-top: 25px;
+        padding: 10px 50px;
+        color: bisque;
+        background-color: rgb(8, 3, 3);
+        font-weight: bold;
+        font-size: larger;
+      }
+      input {
+        margin-left: 100px;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <form>
+        <div class="sec-1">
+          <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+            <label>Name:</label>
+            <input type="text" />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" />
+            <br />
+            <label for="password">password:</label>
+            <input type="password" />
+          </fieldset>
+        </div>
+
+        <br />
+        <div class="sec-2">
+          <fieldset>
+            <legend>Your feedback</legend>
+            <label>Please Check all the emotions that apply to you:</label>
+            <br />
+            <label>Angry</label>
+            <input type="checkbox" />
+            <br />
+            <label>Sad</label>
+            <input type="checkbox" />
+            <br />
+            <label>Happy</label>
+            <input type="checkbox" />
+            <br />
+            <label>Ambivalent</label>
+            <input type="checkbox" />
+            <br />
+            <label for="">How satisfied were you with our services?</label>
+            <br />
+            <label>Very satisfied</label>
+            <input type="radio" />
+            <br />
+            <label></label>satisfied
+            <input type="radio" />
+            <br />
+            <label></label>Didn't care
+            <input type="radio" />
+            <br />
+            <label></label>Dissatisfied
+            <input type="radio" />
+            <br />
+            <label></label>Very dissatisfied
+            <input type="radio" />
+          </fieldset>
+        </div>
+      </form>
+      <button>SUBMIT</button>
+    </div>
+  </body>
+</html>
